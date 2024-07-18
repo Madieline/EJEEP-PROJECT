@@ -21,3 +21,6 @@ st.write(dfA.iloc[10:14])
 
 time.sleep(60 * 1)  # Refresh every 5 minutes (adjust as needed)
 st.experimental_rerun()
+
+#Input which Line is wanted: 
+st.selection(label="Choose E-jeep Line to view", options=["LINE A", "LINE B", "LINE C"])
