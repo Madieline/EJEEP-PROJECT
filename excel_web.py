@@ -21,3 +21,5 @@ st.write(dfA.iloc[10:14])
 
 time.sleep(60 * 1)  # Refresh every 5 minutes (adjust as needed)
 st.experimental_rerun()
+
+st.selectbox(label = "Choose E-jeep Line to view", options = ["LINE A", "LINE B", "EXPRESS"])
